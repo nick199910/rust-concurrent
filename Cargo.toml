@@ -1,0 +1,23 @@
+[package]
+name = "cs431-homework"
+version = "0.1.0"
+authors = ["Jeehoon Kang <jeehoon.kang@kaist.ac.kr>"]
+edition = "2021"
+
+[features]
+check-loom = ["loom"]
+
+
+[dependencies]
+arr_macro = "0.2.1"
+cfg-if = "1.0.0"
+crossbeam-channel = "0.5.8"
+crossbeam-epoch = "0.9.15"
+crossbeam-utils = "0.8.16"
+ctrlc = "3.4.0"
+either = "1.9.0"
+itertools = "0.11.0"
+loom = { version = "0.7.0", optional = true }
+rand = "0.8.5"
+regex = "1.9.3"
+arr_macro_impl = "0.2.1"
